@@ -8,7 +8,6 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react', 'react-hooks', 'jsx-a11y'],
   settings: {
     react: {
       version: 'detect',
