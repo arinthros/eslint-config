@@ -14,7 +14,7 @@
     "deploy": "yarn version --new-version ${ESLINT_VERSION} && node @arinthros/scripts build"
   },
   "dependencies": {
-    "eslint-config-prettier": "8.1.0",
+    "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-node": "0.3.4",
     "eslint-plugin-cypress": "2.11.2",
     "eslint-plugin-import": "2.22.1",
