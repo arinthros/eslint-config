@@ -1,6 +1,6 @@
 {
   "name": "@arinthros/eslint-config",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "My opinionated eslint-config.",
   "main": "index.js",
   "repository": "https://github.com/arinthros/common",
