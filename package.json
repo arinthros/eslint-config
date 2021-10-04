@@ -1,0 +1,41 @@
+{
+  "name": "@arinthros/eslint-config",
+  "version": "0.2.8",
+  "description": "My opinionated eslint-config.",
+  "main": "index.js",
+  "repository": "https://github.com/arinthros/common",
+  "author": "Bryson Hotopp",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint ./packages/ --ext .js,.jsx",
+    "lint:ci": "yarn lint --quiet",
+    "reinstall": "arinthros-scripts reinstall",
+    "build": "arinthros-scripts build",
+    "deploy": "yarn version --new-version ${ESLINT_VERSION} && node @arinthros/scripts build"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "8.1.0",
+    "eslint-import-resolver-node": "0.3.4",
+    "eslint-plugin-cypress": "2.11.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jest": "24.4.2",
+    "eslint-plugin-jest-dom": "3.6.5",
+    "eslint-plugin-jsdoc": "32.2.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-testing-library": "3.10.1",
+    "typescript": "4.2.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.32.0",
+    "prettier": ">=2.2.1"
+  },
+  "devDependencies": {
+    "@arinthros/scripts": ">=0.2.9",
+    "eslint": "7.32.0",
+    "prettier": "2.2.1",
+    "typescript": "4.2.2"
+  }
+}
