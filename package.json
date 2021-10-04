@@ -7,7 +7,7 @@
   "author": "Bryson Hotopp",
   "license": "ISC",
   "scripts": {
-    "lint": "eslint ./packages/ --ext .js,.jsx",
+    "lint": "eslint ./src/ --ext .js,.jsx",
     "lint:ci": "yarn lint --quiet",
     "reinstall": "arinthros-scripts reinstall",
     "build": "arinthros-scripts build",

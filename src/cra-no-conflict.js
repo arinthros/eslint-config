@@ -1,2 +1,2 @@
 /* eslint-disable jsdoc/require-file-overview */
-module.exports = require('./config/eslintrc/cra-no-conflict')
+module.exports = require('./config/eslint/cra-no-conflict')
