@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@arinthros/scripts@>=0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@arinthros/scripts/-/scripts-0.2.9.tgz#a3adbc850419a6f067c22926645aa4e98265c3b2"
-  integrity sha512-480gy5v67MMb3OLcI72VyQCUwJ+3MlQnoCl0Tz91blYulTAuXVWvhR1OHZDOaCfzZkhhNEqlUbXNf4fzMJjqJg==
+"@arinthros/scripts@>=0.2.10":
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/@arinthros/scripts/-/scripts-0.2.10.tgz#f84348055bde528e08439bf85847ee65aca79ad5"
+  integrity sha512-cvb4JAqxSX86+Fp57+ThLjk/i1oA1A830fUbtDnNTory3t+w3rGuePXjeMoBsykquMKWFc/31xBXnWLhSTW6Ew==
   dependencies:
     cross-spawn "7.0.3"
     fs-extra "9.1.0"
