@@ -8,7 +8,7 @@ A set of common configurations for JavaScript projects.
 
 ```js
 module.exports = {
-  extends: ['@arinthros/common/eslint'],
+  extends: ['@arinthros'],
 }
 ```
 
@@ -17,11 +17,11 @@ module.exports = {
 **.prettierrc.js**
 
 ```js
-module.exports = require('@arinthros/common/prettier')
+module.exports = require('@arinthros/eslint-config/prettier')
 
 // To add your own custom rules:
 module.exports = {
-  ...require('@arinthros/common/prettier'),
+  ...require('@arinthros/eslint-config/prettier'),
   // Put your own rule preferences here.
 }
 
